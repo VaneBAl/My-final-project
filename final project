@@ -1,0 +1,147 @@
+var diam1=0;
+
+function setup() {
+  createCanvas(500, 500);
+  background(500); 
+}
+
+function draw() {
+  background(500); 
+  background("#003366");
+  fill("#add8e6");
+  stroke("#fff00");
+  strokeWeight(5);
+  ellipse(50,100, diam1, diam1);
+   
+   fill("#ff0000");
+  ellipse(mouseX,mouseY,20,20);
+  textSize(20);
+  textFont("Georgia");
+  textStyle(BOLD);
+  textAlign(CENTER);
+  text("WAND MAGIC",250,40)
+   fill("#ff0000");
+   ellipse(305,305, 20, 20);
+  fill("#ff0000");
+  ellipse(320,320,20, 20);
+   fill("#ff0000");
+  ellipse(335,335,20,20);
+  fill("#ff0000");
+  ellipse(350,350,20,20);
+   fill("#ff0000");
+  ellipse(365,365,20,20);
+   fill("#ff0000");
+  ellipse(380,380,20,20);
+   fill("#ff0000");
+  ellipse(395,395,20,20);
+    fill("#ff0000");
+  ellipse(410,410,20,20);
+    fill("#ff0000");
+  ellipse(425,425,20,20);
+  
+  fill("#ff0000");
+  ellipse(440,440,20,20);
+    fill("#ff0000");
+  ellipse(455,455,20,20);
+   fill("#ff0000");
+   ellipse(290,290, 20, 20);
+  fill("#ff0000");
+  ellipse(265,290, 20, 20);
+  fill("#ff0000");
+  ellipse(240,290, 20, 20);
+  fill("#ff0000");
+  ellipse(215,290, 20, 20);
+  fill("#ff0000");
+  ellipse(190,290, 20, 20);
+  
+  fill("#ff0000");
+  ellipse(160,350, 20, 20);
+   fill("#ff0000");
+  ellipse(145,370, 20, 20);
+   fill("#ff0000");
+  ellipse(130,390, 20, 20);
+  
+  
+  fill("#ff0000");
+  ellipse(190,265, 20, 20);
+  fill("#ff0000");
+  ellipse(190,240, 20, 20);
+  fill("#ff0000");
+  ellipse(190,215, 20, 20);
+  fill("#ff0000");
+  ellipse(190,190, 20);
+  
+  fill("#ff0000");
+  ellipse(170,160, 20);
+   fill("#ff0000");
+  ellipse(155,140, 20);
+  fill("#ff0000");
+  ellipse(144,120, 20);
+ 
+  
+  fill("#ff0000");
+  ellipse(215,190, 20);
+  fill("#ff0000");
+  ellipse(240,190, 20);
+  fill("#ff0000");
+  ellipse(265,190, 20);
+  fill("#ff0000");
+  ellipse(290,190, 20);
+   ellipse(240,190, 20);
+  fill("#ff0000");
+  ellipse(265,350, 20);
+ 
+  fill("#ff0000");
+  ellipse(265,375, 20);
+  fill("#ff0000");
+  ellipse(265,400, 20);
+  fill("#ff0000");
+  ellipse(265,375, 20);
+   
+  fill("#ff0000");
+   ellipse(290,265, 20, 20);
+   fill("#ff0000");
+   ellipse(290,240, 20, 20);
+   fill("#ff0000");
+   ellipse(290,215, 20, 20);
+  
+    
+   
+  fill("#ff0000");
+  ellipse(350,265, 20, 20);
+   fill("#ff0000");
+  ellipse(375,265, 20, 20);
+   fill("#ff0000");
+  ellipse(400,265, 20, 20);
+  
+   fill("#ff0000");
+  ellipse(350,155, 20, 20);
+   fill("#ff0000");
+  ellipse(370,140, 20, 20);
+  fill("#ff0000");
+  ellipse(386,120, 20, 20);
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  console.log(diam1);
+}
+
+function mousePressed(){
+  if(diam1>50){
+    diam1=0;
+  }else{
+    diam1= diam1+5;
+  }
+  
+
+}
+ 
